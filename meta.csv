@@ -1,2 +1,0 @@
-filename,Video Id,Camera,Sampling rate (Hz),"Video resolution (px, HxW)",Color,Endoscope orientation,Endoscope application,Age range (yrs),Subject sex,Subject disorder status,Segmenter,Post-processed
-0,27,HERS 5562 Endocam Wolf,4000,"[256, 256]",False,70°,oral,90-100,w,spasmodic dysphonia,1,2
