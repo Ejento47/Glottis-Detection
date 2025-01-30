@@ -1,9 +1,9 @@
-Final Year Project on object localization and detection in endoscopy
+## Final Year Project on object localization and detection in endoscopy
 
 - Contains Preprocessing of the Data from the open-source dataset BAGLS
 - Contains Data Analysis and Visualization of the BAGLS dataset
 
-## Dataset
+### Dataset
 
 This project uses the **Benchmark for Automatic Glottis Segmentation** dataset, which is available on [Kaggle](https://www.kaggle.com/datasets/gomezp/benchmark-for-automatic-glottis-segmentation).
 
