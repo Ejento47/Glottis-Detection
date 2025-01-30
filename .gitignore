@@ -1,1 +1,5 @@
 testfiles/
+datasets/
+runs/
+*.pt
+
