@@ -40,7 +40,7 @@ save_hybrid: false
 conf: null
 iou: 0.7
 max_det: 300
-half: false
+half: true
 dnn: false
 plots: true
 source: null
