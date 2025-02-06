@@ -1,8 +1,13 @@
-path: r"D:\FYP Datasets\fyp\raw\training"
+path: D:/FYP Datasets/fyp/training
 train: train
 val: val
 test: test
 
 #classes
 names:
+  0: Torus Tobarius
+  1: Soft palate
+  2: Uvula
   3: Glottis
+  4: True vocal folds
+  5: Epiglottis
