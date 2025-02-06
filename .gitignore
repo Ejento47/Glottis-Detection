@@ -1,5 +1,2 @@
 testfiles/
-datasets/
-runs/
 *.pt
-

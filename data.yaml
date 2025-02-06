@@ -1,0 +1,8 @@
+path: r"D:\FYP Datasets\fyp\raw\training"
+train: train
+val: val
+test: test
+
+#classes
+names:
+  3: Glottis
