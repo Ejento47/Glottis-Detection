@@ -2,3 +2,4 @@ testfiles/
 *.pt
 weights/
 runs/
+wandb/

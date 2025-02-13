@@ -1,0 +1,13 @@
+method: bayes  # Search strategy: bayes, random, or grid
+metric:
+  name: val/box_loss
+  goal: minimize  # Goal: maximize or minimize
+parameters:
+  lr0:
+    min: 0.001
+    max: 0.01
+  batch:
+    values: [2, 4]
+  epochs:
+      min: 10
+      max: 20

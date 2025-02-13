@@ -1,0 +1,26 @@
+# Dataset configuration
+data: "data.yaml"
+
+# Training settings      
+patience: 5                 # Patience for early stopping (                
+save: false                 # Whether to save the model
+save_period: 5              # Period for saving checkpoints 
+device: '0'                 
+workers: 1                  
+project: "weights"          # Project name for W&B
+name: "try"                 # Experiment name
+exist_ok: false             # Whether to overwrite existing runs (static)
+pretrained: true            # Use pretrained weights (static)
+optimizer: 'auto'           # Optimizer)
+resume: false               # Resume from checkpoint 
+amp: false                  # Mixed precision 
+fraction: 0.1               # Fraction of dataset for training 
+profile: false              # Enable ONNX and TensorRT profiling
+freeze: null                # Freeze layers 
+conf: 0.01                  
+iou: 0.6                    
+degrees: 0.0                # Image augmentation
+shear: 0.0                  # Image augmentation
+perspective: 0.0            # Image augmentation
+plots: false                # Whether to plot results 
+half: true                  
