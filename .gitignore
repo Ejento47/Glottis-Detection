@@ -3,3 +3,4 @@ testfiles/
 weights/
 runs/
 wandb/
+.vscode/
