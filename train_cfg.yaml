@@ -1,20 +1,20 @@
 data: "data.yaml"
-epochs: 10
+epochs: 50
 patience: 5
-batch: 4
-save: False
+batch: 8
+save: True
 save_period: 5
 device: "0"
-workers: 1
+workers: 4 # Number of CPU workers for data loading
 project: "weights"
-name: "try"
-exist_ok: False  # Overwrite the existing run for iterative testing, turn false when confident
+name: "test-1"
+exist_ok: True  # Overwrite the existing run for iterative testing, turn false when confident
 pretrained: True
 optimizer: "auto"
 resume: False
-amp: False  # Mixed precision training for faster training, might cause some issues
-fraction: 0.1  # Fraction of dataset if resource-limited, change to 1 when confident
-profile: False  # Enable ONNX and TensorRT profiling
+amp: True  # Mixed precision training for faster training, might cause some issues
+fraction: 1  # Fraction of dataset if resource-limited, change to 1 when confident
+profile: True  # Enable ONNX and TensorRT profiling
 freeze: null  # Freeze the first N layers or specify layers by index
 
 # Validation parameters
