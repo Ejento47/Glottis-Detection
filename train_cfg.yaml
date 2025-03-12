@@ -1,5 +1,5 @@
 data: "data.yaml"
-epochs: 50
+epochs: 300
 patience: 5
 batch: 8
 save: True
