@@ -1,4 +1,4 @@
-path: D:/FYP Datasets/fyp/training
+path: 'D:/FYP_Datasets/fyp/training'
 train: train
 val: val
 test: test
