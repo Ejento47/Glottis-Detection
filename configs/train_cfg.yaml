@@ -1,7 +1,6 @@
 #hyperparameter tuning
 data: 'D:/FYP_Code/configs/data.yaml'
 epochs: 100  #number of epochs
-iterations: 300 #number of iterations
 patience: 20  #patience for early stopping
 batch: 8 #batch size
 save: True #save model

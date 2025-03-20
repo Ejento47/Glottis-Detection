@@ -30,7 +30,7 @@ def train_tune(project_name, name,config_path,model_path):
     add_wandb_callback(model,enable_model_checkpointing=True)
     
     # Run hyperparameter tuning with config
-    results = model.tune(**cfg)
+    results = model.tune(**cfg, iterations= 300) #number of iterations)
     
     model.save('models/yolov8n_tune.pt')
     wandb.finish()
