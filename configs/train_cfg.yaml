@@ -1,20 +1,20 @@
 #hyperparameter tuning
 data: 'D:/FYP_Code/configs/data.yaml'
-epochs: 100  #number of epochs
-patience: 20  #patience for early stopping
-batch: 8 #batch size
+epochs: 10  #number of epochs
+patience: 2  #patience for early stopping
+batch: 2 #batch size
 save: True #save model
 save_period: 10 #save model every 10 epochs
 device: 0 #device to use
-workers: 4 #number of workers
+workers: 1 #number of workers
 project: 'tune_test' #project name
 name: 'run_1' #run name
 exist_ok: True #overwrite existing model
 pretrained: True #use pretrained model
 optimizer: 'auto' #optimizer
 resume: False #resume training
-amp: True #use amp
-fraction: 1  # Use only 10% of data for testing
+amp: False #use amp
+fraction: 0.1  # Use only 10% of data for testing
 profile: True #profile training
 freeze: null #freeze layers
 
