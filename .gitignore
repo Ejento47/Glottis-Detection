@@ -5,7 +5,7 @@ wandb
 models
 tune_test
 .vscode
-
+result/*
 !scripts/data_analysis.ipynb
 !scripts/train.ipynb
 !scripts/data_preprocessing.ipynb
