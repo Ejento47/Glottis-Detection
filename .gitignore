@@ -5,6 +5,8 @@ wandb
 models
 tune_test
 .vscode
+bagls_metadata.csv
+dhs_metadata.csv
 result/*
 !scripts/data_analysis.ipynb
 !scripts/train.ipynb

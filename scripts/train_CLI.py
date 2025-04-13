@@ -24,15 +24,15 @@ def train_tune(project_name, name,config_path,model_path):
     
     # Create YOLO model
     
-    model = YOLO('models/yolov8n.pt') 
+    model = YOLO('models/yolov11n.pt') 
      
     # Add wandb callback with model checkpointing enabled
     add_wandb_callback(model,enable_model_checkpointing=True)
     
     # Run hyperparameter tuning with config
-    results = model.tune(**cfg, iterations= 300) #number of iterations)
+    results = model.train(**cfg) #number of iterations)
     
-    model.save('models/yolov8n_tune.pt')
+    model.save('models/yolov11n_train.pt')
     wandb.finish()
 
 def main():

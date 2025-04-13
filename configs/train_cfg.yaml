@@ -1,5 +1,5 @@
 #hyperparameter tuning
-data: 'D:/FYP_Code/configs/data.yaml'
+data: 'data.yaml'
 epochs: 10  #number of epochs
 patience: 2  #patience for early stopping
 batch: 2 #batch size
@@ -17,7 +17,6 @@ amp: False #use amp
 fraction: 0.1  # Use only 10% of data for testing
 profile: True #profile training
 freeze: null #freeze layers
-
 
 # Validation parameters
 conf: 0.001 #confidence threshold
